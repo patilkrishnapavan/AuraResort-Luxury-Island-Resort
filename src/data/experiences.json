@@ -1,0 +1,26 @@
+[
+  {
+    "id": "sunrise-yacht",
+    "title": "Sunrise Yacht Journey",
+    "description": "Private morning yacht excursions across glass-still waters.",
+    "image": "https://images.pexels.com/photos/12858463/pexels-photo-12858463.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+    "id": "jungle-expedition",
+    "title": "Jungle Expedition",
+    "description": "Guided exploration through untouched tropical landscapes.",
+    "image": "https://images.pexels.com/photos/9983081/pexels-photo-9983081.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+    "id": "sunset-dining",
+    "title": "Sunset Dining",
+    "description": "Private chef experiences overlooking the ocean horizon.",
+    "image": "https://images.pexels.com/photos/5805475/pexels-photo-5805475.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  },
+  {
+    "id": "island-stargazing",
+    "title": "Island Stargazing",
+    "description": "A private evening beneath an uninterrupted night sky.",
+    "image": "https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?auto=compress&cs=tinysrgb&w=1600"
+  }
+]

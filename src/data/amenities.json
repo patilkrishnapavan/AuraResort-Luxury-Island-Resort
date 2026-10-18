@@ -1,0 +1,10 @@
+[
+  { "id": "pool", "label": "Infinity Beachside Pool", "icon": "waves" },
+  { "id": "dining", "label": "Island-Grown Fine Dining", "icon": "utensils" },
+  { "id": "spa", "label": "Holistic Wellness Spa", "icon": "flower" },
+  { "id": "yacht", "label": "Private Yacht Charters", "icon": "sailboat" },
+  { "id": "concierge", "label": "Personal Concierge", "icon": "bellconcierge" },
+  { "id": "transfers", "label": "Private Transfers", "icon": "car" },
+  { "id": "roomservice", "label": "In-Suite Dining", "icon": "coffee" },
+  { "id": "beach", "label": "Private Beach Access", "icon": "palmtree" }
+]

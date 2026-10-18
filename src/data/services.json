@@ -1,0 +1,10 @@
+[
+  { "id": "concierge", "title": "Personal Concierge", "description": "A dedicated host to tailor every detail, from arrival to your final farewell.", "icon": "bellconcierge" },
+  { "id": "transfers", "title": "Private Transfers", "description": "Seamless arrival and departure by yacht or helicopter.", "icon": "car" },
+  { "id": "room-service", "title": "In-Suite Dining", "description": "Thoughtful menus delivered to your terrace, day or night.", "icon": "utensils" },
+  { "id": "housekeeping", "title": "Thoughtful Housekeeping", "description": "Daily care and evening turndown, arranged around your rhythm.", "icon": "sparkles" },
+  { "id": "spa", "title": "Wellness Rituals", "description": "Restorative treatments and private sessions in the wellness pavilion.", "icon": "flower" },
+  { "id": "private-dining", "title": "Private Dining", "description": "An intimate chef-led meal in your villa, on the beach, or beneath the palms.", "icon": "chefhat" },
+  { "id": "laundry", "title": "Laundry & Pressing", "description": "Effortless garment care, with same-day service available.", "icon": "shirt" },
+  { "id": "butler-service", "title": "Private Butler Service", "description": "A dedicated butler ensures every moment of your stay is effortless, discreet, and perfectly tailored to you.", "icon": "bellconcierge" }
+]

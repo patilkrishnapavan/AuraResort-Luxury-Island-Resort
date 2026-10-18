@@ -1,0 +1,71 @@
+[
+  {
+    "id": "azure-ocean-suite",
+    "name": "The Azure Ocean Suite",
+    "price": 450,
+    "currency": "USD",
+    "description": "A light-filled private residence with a pool deck overlooking uninterrupted ocean panoramas.",
+    "highlights": ["King Bed", "Maximum 3 Guests", "1,200 sq ft", "Private Pool", "Ocean View"],
+    "badge": "Oceanfront",
+    "category": "ocean",
+    "guests": 3,
+    "size": "1,200 sq ft",
+    "bed": "King Bed",
+    "view": "Uninterrupted ocean",
+    "amenities": ["Private plunge pool", "Ocean-facing terrace", "Rainfall shower", "In-suite dining", "Daily breakfast"],
+    "image": "https://images.pexels.com/photos/2476632/pexels-photo-2476632.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "gallery": [
+      "https://images.pexels.com/photos/2476632/pexels-photo-2476632.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/12431670/pexels-photo-12431670.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/9482132/pexels-photo-9482132.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/9482135/pexels-photo-9482135.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/9482129/pexels-photo-9482129.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ]
+  },
+  {
+    "id": "botanical-canopy-villa",
+    "name": "Botanical Canopy Villa",
+    "price": 620,
+    "currency": "USD",
+    "description": "A secluded tropical residence immersed in lush forest, with a private garden and outdoor rain shower.",
+    "highlights": ["King Bed", "Maximum 3 Guests", "1,400 sq ft", "Outdoor Rainfall Shower", "Private Garden"],
+    "badge": "Most Private",
+    "category": "villa",
+    "guests": 3,
+    "size": "1,400 sq ft",
+    "bed": "King Bed",
+    "view": "Tropical garden",
+    "amenities": ["Private garden", "Outdoor rainfall shower", "King bed", "In-suite dining", "Daily breakfast"],
+    "image": "https://images.pexels.com/photos/12394057/pexels-photo-12394057.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "gallery": [
+      "https://images.pexels.com/photos/12394057/pexels-photo-12394057.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/6129997/pexels-photo-6129997.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/4870616/pexels-photo-4870616.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/1488267/pexels-photo-1488267.png?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/11669961/pexels-photo-11669961.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ]
+  },
+  {
+    "id": "pinnacle-penthouse",
+    "name": "The Pinnacle Penthouse",
+    "price": 1200,
+    "currency": "USD",
+    "description": "Our highest expression of architectural luxury, with a sweeping private terrace above the horizon.",
+    "highlights": ["King Bed", "Maximum 4 Guests", "2,800 sq ft", "Private Terrace", "Helipad Lounge Access"],
+    "badge": "Signature Suite",
+    "category": "penthouse",
+    "guests": 4,
+    "size": "2,800 sq ft",
+    "bed": "King Bed",
+    "view": "Panoramic island and ocean",
+    "amenities": ["Private terrace", "Separate living room", "Personal butler", "Helipad lounge access", "Daily breakfast"],
+    "image": "https://images.pexels.com/photos/13205670/pexels-photo-13205670.jpeg?auto=compress&cs=tinysrgb&w=1600",
+    "gallery": [
+      "https://images.pexels.com/photos/13205670/pexels-photo-13205670.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/24807141/pexels-photo-24807141.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/1662549/pexels-photo-1662549.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/13650584/pexels-photo-13650584.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "https://images.pexels.com/photos/11978834/pexels-photo-11978834.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "t1",
+    "name": "Eleanor Whitmore",
+    "country": "United Kingdom",
+    "stayType": "Azure Ocean Suite · 7 Nights",
+    "rating": 5,
+    "review": "An extraordinary escape where every detail felt effortless. From the moment our yacht approached the private dock, we knew this was somewhere singular. The staff anticipated needs we had not yet articulated."
+  },
+  {
+    "id": "t2",
+    "name": "Hiroshi Tanaka",
+    "country": "Japan",
+    "stayType": "Pinnacle Penthouse · 5 Nights",
+    "rating": 5,
+    "review": "The architecture alone is worth the journey. Waking to that ocean panorama from the penthouse terrace was, without exaggeration, the most beautiful morning of my life. Service was invisible yet omnipresent."
+  },
+  {
+    "id": "t3",
+    "name": "Sofía Mendez",
+    "country": "Argentina",
+    "stayType": "Botanical Canopy Villa · 6 Nights",
+    "rating": 5,
+    "review": "Complete seclusion wrapped in luxury. The canopy villa felt like our own private forest kingdom. The sunrise yacht expedition and the private chef dinner on the beach were transcendent experiences."
+  },
+  {
+    "id": "t4",
+    "name": "Anders Lindqvist",
+    "country": "Sweden",
+    "stayType": "Azure Ocean Suite · 4 Nights",
+    "rating": 5,
+    "review": "We have traveled to over forty countries and stayed at the finest properties. AuraResort is, simply, the standard by which we will now measure everything else. The spa and the stargazing evening were unforgettable."
+  }
+]

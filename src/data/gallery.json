@@ -1,0 +1,18 @@
+[
+  { "id": "g1", "url": "https://images.pexels.com/photos/37569474/pexels-photo-37569474.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Aerial view of the resort with palm trees and ocean", "category": "resort" },
+  { "id": "g2", "url": "https://images.pexels.com/photos/2476632/pexels-photo-2476632.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Ocean villa with private pool", "category": "suites" },
+  { "id": "g3", "url": "https://images.pexels.com/photos/5805475/pexels-photo-5805475.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Seaside dining at sunset", "category": "dining" },
+  { "id": "g4", "url": "https://images.pexels.com/photos/9146381/pexels-photo-9146381.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Spa treatment room", "category": "wellness" },
+  { "id": "g5", "url": "https://images.pexels.com/photos/12858463/pexels-photo-12858463.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Luxury yacht at sunset", "category": "experiences" },
+  { "id": "g6", "url": "https://images.pexels.com/photos/12431670/pexels-photo-12431670.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Overwater villa with infinity pool", "category": "suites" },
+  { "id": "g7", "url": "https://images.pexels.com/photos/5785054/pexels-photo-5785054.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Palm-lined tropical island", "category": "resort" },
+  { "id": "g8", "url": "https://images.pexels.com/photos/1327393/pexels-photo-1327393.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Gourmet fine dining plate", "category": "dining" },
+  { "id": "g9", "url": "https://images.pexels.com/photos/12394057/pexels-photo-12394057.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Secluded tropical villa in lush jungle", "category": "suites" },
+  { "id": "g10", "url": "https://images.pexels.com/photos/9146378/pexels-photo-9146378.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Spa massage room", "category": "wellness" },
+  { "id": "g11", "url": "https://images.pexels.com/photos/9983081/pexels-photo-9983081.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Dense tropical jungle", "category": "experiences" },
+  { "id": "g12", "url": "https://images.pexels.com/photos/6875464/pexels-photo-6875464.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Coastal resort residences", "category": "resort" },
+  { "id": "g13", "url": "https://images.pexels.com/photos/13205670/pexels-photo-13205670.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Rooftop terrace overlooking ocean", "category": "suites" },
+  { "id": "g14", "url": "https://images.pexels.com/photos/3055712/pexels-photo-3055712.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Oceanfront dining at sunset", "category": "dining" },
+  { "id": "g15", "url": "https://images.pexels.com/photos/38407790/pexels-photo-38407790.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Wellness spa with oil massage", "category": "wellness" },
+  { "id": "g16", "url": "https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?auto=compress&cs=tinysrgb&w=1600", "alt": "Starry night sky", "category": "experiences" }
+]
