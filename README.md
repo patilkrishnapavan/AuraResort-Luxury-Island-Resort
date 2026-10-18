@@ -1,6 +1,8 @@
-# AuraResort
+# AuraResort — Luxury Island Resort Website
 
-A fictional luxury-island-resort website template built with React and Vite. It is a frontend demonstration: reservation and contact forms do not send, store, or charge for anything.
+A fictional luxury-island-resort website built with React, TypeScript, and Vite. This responsive frontend demonstration features room browsing, resort experiences, image galleries, and a reservation interface.
+
+**Note:** This is a frontend-only demonstration. Reservation and contact forms do not send or store information and do not process payments.
 
 ## Features
 
@@ -13,11 +15,12 @@ A fictional luxury-island-resort website template built with React and Vite. It 
 - Frontend-only availability search and reservation estimate with date and capacity validation
 - Contact form demonstration, toast notifications, and back-to-top control
 - Reduced-motion support, visible focus states, semantic landmarks, and SEO/social metadata
-- Editable JSON content for rooms, services, experiences, testimonials, gallery, destination, amenities, and FAQs
+- Editable JSON content for rooms, services, experiences, testimonials, gallery, destinations, amenities, and FAQs
 
 ## Technologies
 
-- React 18 and TypeScript
+- React 18
+- TypeScript
 - Vite
 - Tailwind CSS
 - Framer Motion
@@ -25,87 +28,149 @@ A fictional luxury-island-resort website template built with React and Vite. It 
 
 No backend, database, authentication, API key, payment processor, or paid service is required.
 
-## Installation and local development
+## Getting Started
 
-Install [Node.js](https://nodejs.org/) (which includes npm), then run these commands in the project folder:
+### Prerequisites
 
-```powershell
+Install [Node.js](https://nodejs.org/), which includes npm.
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/patilkrishnapavan/auraresort-hotel-website.git
+```
+
+Navigate into the project folder:
+
+```bash
+cd auraresort-hotel-website
+```
+
+Install dependencies:
+
+```bash
 npm install
+```
+
+Start the development server:
+
+```bash
 npm run dev
 ```
 
-Open the local address printed by Vite, usually `http://localhost:5173`. Keep the terminal running while you use the site. Stop the server with `Ctrl+C`.
+Open the local address printed by Vite, usually `http://localhost:5173`.
 
-Other project commands:
+Keep the terminal running while using the website. Press `Ctrl+C` to stop the server.
 
-```powershell
+## Available Scripts
+
+```bash
+npm run dev
 npm run typecheck
 npm run lint
 npm run build
 npm run preview
 ```
 
-`npm run preview` serves the production build locally after running `npm run build`.
+- `npm run dev` — Starts the development server.
+- `npm run typecheck` — Checks TypeScript types.
+- `npm run lint` — Runs ESLint.
+- `npm run build` — Creates the production build.
+- `npm run preview` — Previews the production build locally.
 
-## Customization
-
-### Hotel name and tagline
-
-Update the displayed brand in `src/components/Logo.tsx`, page title and SEO text in `index.html`, and demo copy in the relevant components and `README.md`.
-
-### Colors and fonts
-
-- Edit the Tailwind theme colors and font families in `tailwind.config.js`.
-- Global base styles and CSS custom properties are in `src/index.css`.
-- The current Google Fonts are linked in `index.html`. Replace the link and matching Tailwind font names to use different fonts. A local font can also be added under `public/` if you want to avoid the external font request.
-
-### Rooms, prices, services, and other content
-
-Edit the JSON files under `src/data/`:
-
-- `rooms.json` — names, descriptions, prices, currency, guest limit, size, bed, view, amenities, and image URLs
-- `services.json` — guest services and icon names
-- `experiences.json` — activities and images
-- `testimonials.json` — sample guest stories (replace fictional testimonials before publishing)
-- `gallery.json` — image URLs, alternative text, and gallery categories
-- `destinations.json` — fictional location and contact information
-- `amenities.json` — resort amenities and icon names
-- `faqs.json` — frequently asked questions
-
-Keep room IDs unique and use `ocean`, `villa`, or `penthouse` as a room category. Gallery categories are `resort`, `suites`, `dining`, `wellness`, and `experiences`. Icon values need to match the mappings in `src/components/Amenities.tsx` or `src/components/Services.tsx`.
-
-### Images
-
-The demo uses remote Pexels image URLs and Google Fonts, so an internet connection is needed to load those assets. Replace the URLs in `src/data/*.json` with your licensed image URLs or files placed under `public/` (for example, `/images/rooms/suite.jpg`) to serve images locally. Set meaningful `alt` text in `gallery.json`.
-
-### Contact details
-
-Edit `src/data/destinations.json`. The contact and booking forms are demonstration UI only; connect a form endpoint or booking provider before using them for real enquiries or reservations. No form data is transmitted by this template.
-
-## Deployment
-
-The static production files are generated in `dist/` by `npm run build`.
-
-- **Netlify:** use `npm run build` as the build command and `dist` as the publish directory.
-- **Vercel:** import the project and use the Vite framework preset, `npm run build`, and `dist` as the output directory.
-- **GitHub Pages:** configure Pages with a build workflow that runs `npm ci` and `npm run build`, then publishes `dist`. If hosting below a repository subpath, set Vite's `base` in `vite.config.ts` to that path before building.
-
-## Folder structure
+## Project Structure
 
 ```text
 public/
   favicon.svg
+
 src/
-  components/      Reusable page sections and UI
-  context/         Booking and toast state
-  data/            Editable JSON content
-  lib/data.ts      Typed exports for the JSON content
-  App.tsx          Page composition
-  index.css        Global styles and reduced-motion rules
-  main.tsx         React entry point
-index.html         Document metadata and font links
-tailwind.config.js Theme configuration
-vite.config.ts     Vite and source alias configuration
+  components/
+    sections/
+  context/
+  data/
+  hooks/
+  lib/
+  App.tsx
+  index.css
+  main.tsx
+
+index.html
+package.json
+tailwind.config.js
+tsconfig.json
+vite.config.ts
 ```
 
-AuraResort, its contact information, guest stories, rates, and destination are fictional demo content. Replace them with accurate, licensed content before commercial use.
+## Customization
+
+### Hotel Name and Tagline
+
+Update the displayed brand in `src/components/Logo.tsx`. Update the page title and SEO metadata in `index.html`.
+
+### Colors and Fonts
+
+- Edit `tailwind.config.js` to customize theme colors and font families.
+- Edit `src/index.css` for global styles and CSS custom properties.
+- Update the font links in `index.html` if you want to use different fonts.
+
+### Rooms, Prices, and Content
+
+Edit the JSON files under `src/data/`:
+
+- `rooms.json` — Room names, descriptions, prices, capacity, and amenities.
+- `services.json` — Guest services and icon names.
+- `experiences.json` — Activities and images.
+- `testimonials.json` — Sample guest testimonials.
+- `gallery.json` — Image URLs, alternative text, and categories.
+- `destinations.json` — Destination and contact information.
+- `amenities.json` — Resort amenities.
+- `faqs.json` — Frequently asked questions.
+
+Replace fictional content with accurate information before publishing the website commercially.
+
+### Images
+
+The demo uses remote Pexels image URLs and Google Fonts. An internet connection is required to load these assets.
+
+Replace the image URLs with properly licensed images or local files stored under `public/`.
+
+### Contact and Booking
+
+The booking and contact forms are frontend demonstrations only. Connect a suitable backend, form endpoint, or booking provider before using them for real enquiries or reservations.
+
+No real reservations or payments are processed.
+
+## Deployment
+
+Build the production version:
+
+```bash
+npm run build
+```
+
+The generated static files will be available in `dist/`.
+
+### Netlify
+
+- Build command: `npm run build`
+- Publish directory: `dist`
+
+### Vercel
+
+Import the GitHub repository and configure the project using the Vite framework preset.
+
+- Build command: `npm run build`
+- Output directory: `dist`
+
+### GitHub Pages
+
+Configure a GitHub Actions workflow to build the project and publish `dist/`. If deploying under a repository subpath, configure the appropriate `base` value in `vite.config.ts`.
+
+## License and Disclaimer
+
+AuraResort is a fictional demonstration project. Its branding, contact information, destination, rates, and sample guest stories are demo content.
+
+Replace them with accurate, properly licensed content before commercial use.
